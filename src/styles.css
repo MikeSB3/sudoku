@@ -1,3 +1,40 @@
-body {
-  background-color: #7FDBFF;
+table, th, td {
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+.three {
+  border-top: 5px solid black;
+}
+.third {
+  border-right: 5px solid black;
+}
+
+.top {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.last {
+  border-bottom: 5px solid black;
+}
+
+.last-third {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.left {
+  border-left: 5px solid black;
+}
+
+
+.last-left {
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.right {
+  border-right: 5px solid black;
 }
