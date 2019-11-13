@@ -1,114 +1,121 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Sudoku</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Sudoku</title>
+</head>
+<body>
+  <div>
     <h1>Sudoku</h1>
-  <table>
-    <div>
-      <tr class="top">
-        <th class="left">2</th>
-        <th class="">2</th>
-        <th class="third">2</th>
-        <th>2</th>
-        <th>2</th>
-        <th class="third">2</th>
-        <th>2</th>
-        <th>2</th>
-        <th class="right">2</th>
-      </tr>
-      <tr class="row-two">
-        <th class="left">2</th>
-        <th class="">2</th>
-        <th class="third">2</th>
-        <th>2</th>
-        <th>2</th>
-        <th class="third">2</th>
-        <th>2</th>
-        <th>2</th>
-        <th class="right">2</th>
-      </tr>
-      <tr class="row-three">
-        <th class="last-left">2</th>
-        <th class="last">2</th>
-        <th class="last-third">2</th>
-        <th class="last">2</th>
-        <th class="last">2</th>
-        <th class="last-third">2</th>
-        <th class="last">2</th>
-        <th class="last">2</th>
-        <th class="last-third">2</th>
-      </tr>
-    </div>
-    <tr>
-      <th class="left">2</th>
-      <th class="">2</th>
-      <th class="third">2</th>
-      <th>2</th>
-      <th>2</th>
-      <th class="third">2</th>
-      <th>2</th>
-      <th>2</th>
-      <th class="right">2</th>
-    </tr>
-    <tr>
-      <th class="left">2</th>
-      <th class="">2</th>
-      <th class="third">2</th>
-      <th>2</th>
-      <th>2</th>
-      <th class="third">2</th>
-      <th>2</th>
-      <th>2</th>
-      <th class="right">2</th>
-    </tr>
-    <tr>
-      <th class="last-left">2</th>
-      <th class="last">2</th>
-      <th class="last-third">2</th>
-      <th class="last">2</th>
-      <th class="last">2</th>
-      <th class="last-third">2</th>
-      <th class="last">2</th>
-      <th class="last">2</th>
-      <th class="last-third">2</th>
-    </tr>
-    <tr>
-      <th class="left">2</th>
-      <th class="">2</th>
-      <th class="third">2</th>
-      <th>2</th>
-      <th>2</th>
-      <th class= "third">2</th>
-      <th>2</th>
-      <th>2</th>
-      <th class="right">2</th>
-    </tr>
-    <tr>
-      <th class="left">2</th>
-      <th class="">2</th>
-      <th class="third">2</th>
-      <th>2</th>
-      <th>2</th>
-      <th class="third">2</th>
-      <th>2</th>
-      <th>2</th>
-      <th class="right">2</th>
-    </tr>
-    <tr>
-      <th class="last-left">2</th>
-      <th class="last">2</th>
-      <th class="last-third">2</th>
-      <th class="last">2</th>
-      <th class="last">2</th>
-      <th class="last-third">2</th>
-      <th class="last">2</th>
-      <th class="last">2</th>
-      <th class="last-third">2</th>
-    </tr>
-  </table>
+    <form id="puzzle" class="" action="index.html" method="post">
+      <table>
 
-  </body>
+        <tr class="top">
+          <th class="left"><input type="number" min="1" max="9" id="number1"></th>
+          <th class="">5</th>
+          <th class="third">2</th>
+          <th>4</th>
+          <th>8</th>
+          <th class="third">9</th>
+          <th>3</th>
+          <th>7</th>
+          <th class="right">6</th>
+        </tr>
+        <tr class="row-two">
+          <th class="left">7</th>
+          <th class="">3</th>
+          <th class="third">9</th>
+          <th>2</th>
+          <th>5</th>
+          <th class="third">6</th>
+          <th>8</th>
+          <th>4</th>
+          <th class="right">1</th>
+        </tr>
+        <tr class="row-three">
+          <th class="last-left">4</th>
+          <th class="last">6</th>
+          <th class="last-third">8</th>
+          <th class="last">3</th>
+          <th class="last">7</th>
+          <th class="last-third">1</th>
+          <th class="last">2</th>
+          <th class="last">9</th>
+          <th class="last-third">5</th>
+        </tr>
+        <tr>
+          <th class="left">3</th>
+          <th class="">8</th>
+          <th class="third">7</th>
+          <th>1</th>
+          <th>2</th>
+          <th class="third">4</th>
+          <th>6</th>
+          <th>5</th>
+          <th class="right">9</th>
+        </tr>
+        <tr>
+          <th class="left">5</th>
+          <th class="">9</th>
+          <th class="third">1</th>
+          <th>7</th>
+          <th><input type="number" min="1" max="9" id="number2"></th>
+          <th class="third">3</th>
+          <th>4</th>
+          <th>2</th>
+          <th class="right">8</th>
+        </tr>
+        <tr>
+          <th class="last-left">2</th>
+          <th class="last">4</th>
+          <th class="last-third">6</th>
+          <th class="last">8</th>
+          <th class="last">9</th>
+          <th class="last-third">5</th>
+          <th class="last">7</th>
+          <th class="last">1</th>
+          <th class="last-third">3</th>
+        </tr>
+        <tr>
+          <th class="left">9</th>
+          <th class="">1</th>
+          <th class="third">4</th>
+          <th>6</th>
+          <th>3</th>
+          <th class= "third">7</th>
+          <th>5</th>
+          <th>8</th>
+          <th class="right">2</th>
+        </tr>
+        <tr>
+          <th class="left">6</th>
+          <th class="">2</th>
+          <th class="third">5</th>
+          <th>9</th>
+          <th>4</th>
+          <th class="third">8</th>
+          <th>1</th>
+          <th>3</th>
+          <th class="right">7</th>
+        </tr>
+        <tr>
+          <th class="last-left">8</th>
+          <th class="last">7</th>
+          <th class="last-third">3</th>
+          <th class="last">5</th>
+          <th class="last">1</th>
+          <th class="last-third">2</th>
+          <th class="last"><input type="number" min="1" max="9" id="number3"></th>
+          <th class="last">6</th>
+          <th class="last-third">4</th>
+        </tr>
+      </table>
+      <button type="submit" name="button" id="submit">Submit</button>
+    </form>
+  </div>
+  <div class="result">
+    <h3>Your result is <span id="outcome"></span></h3>
+
+  </div>
+</body>
 </html>
